@@ -4,7 +4,7 @@ package I_Chapter;
 
 import java.util.Arrays;
 
-public class BinarySearch1 {
+public class BinarySearch {
     private static final int[] ARRAY = new int[] {1, 2, 5, 3, 7, 1, 4, 7, 1, 77, 9, 10, 11, 15, 12, 44, 13, 6};
     private static final int NUM_TO_FIND = 4;
 
