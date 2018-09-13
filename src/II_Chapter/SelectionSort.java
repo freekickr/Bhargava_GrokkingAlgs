@@ -1,6 +1,6 @@
 package II_Chapter;
 
-import java.util.Arrays;
+/* Selection sort of an array in Java. Every iteration we put the smallest number to the beginning of the part we work with */
 
 public class SelectionSort {
     private static final int[] ARRAY = new int[] {1, 2, 5, 3, 7, 1, 4, 7, 1, 77, 9, 10, 11, 15, 12, 44, 13, 6};
@@ -12,14 +12,15 @@ public class SelectionSort {
         }
     }
 
-    public static void selectionSort(int[] arr) {
+    private static void selectionSort(int[] arr) {
+        int temp, min;
         for (int i = 0; i < arr.length-1; i++) {
-            int min = i;
+            min = i;
             for (int j = i+1; j < arr.length; j++) {
                 if (arr[j] < arr[min])
                     min = j;
             }
-            int temp = arr[min];
+            temp = arr[min];
             arr[min] = arr[i];
             arr[i] = temp;
         }
