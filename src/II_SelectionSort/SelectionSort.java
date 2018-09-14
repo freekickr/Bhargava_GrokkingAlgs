@@ -1,4 +1,4 @@
-package II_Chapter;
+package II_SelectionSort;
 
 /* Selection sort of an array in Java. Every iteration we put the smallest number to the beginning of the part we work with */
 
