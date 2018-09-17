@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67feb6c1-113a-4caa-9cb0-ea2a50198826" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/III_Recursion/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/III_Recursion/RecCountdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IV_Quicksort/Quicksort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IV_Quicksort/RecursiveSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VI_BreadthFirstSearch/Dijkstra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VI_BreadthFirstSearch/Dijkstra2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VI_BreadthFirstSearch/QueueGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/V_HashTables/PhoneBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GrokkingAlgs/II_Chapter/SelectionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GrokkingAlgs/I_Chapter/BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/II_Chapter/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/II_SelectionSort/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/I_Chapter/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/I_Introduction/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GrokkingAlgs/IV_Quicksort/Quicksort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GrokkingAlgs/IV_Quicksort/Quicksort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IV_Quicksort/Quicksort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IV_Quicksort/Quicksort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,22 +20,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RecursiveSum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IV_Quicksort/RecursiveSum.java">
+      <file leaf-file-name="PhoneBook.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/V_HashTables/PhoneBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="111" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="111" />
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Quicksort.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/IV_Quicksort/Quicksort.java">
+      <file leaf-file-name="QueueGraph.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/VI_BreadthFirstSearch/QueueGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-118">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="85">
+              <caret line="5" column="65" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dijkstra.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/VI_BreadthFirstSearch/Dijkstra.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="69" column="1" lean-forward="true" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dijkstra2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/VI_BreadthFirstSearch/Dijkstra2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="83" column="62" selection-start-line="83" selection-start-column="62" selection-end-line="83" selection-end-column="62" />
+              <folding>
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#1106#1107#0" expanded="true" />
+                <element signature="e#1137#1138#0" expanded="true" />
+                <element signature="e#1523#1524#0" expanded="true" />
+                <element signature="e#1563#1564#0" expanded="true" />
+                <element signature="e#1698#1699#0" expanded="true" />
+                <element signature="e#1733#1734#0" expanded="true" />
+                <element signature="e#1893#1894#0" expanded="true" />
+                <element signature="e#1941#1942#0" expanded="true" />
+                <element signature="e#3388#3389#0" expanded="true" />
+                <element signature="e#3424#3425#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,6 +106,11 @@
         <option value="$PROJECT_DIR$/src/III_Recursion/Factorial.java" />
         <option value="$PROJECT_DIR$/src/IV_Quicksort/RecursiveSum.java" />
         <option value="$PROJECT_DIR$/src/IV_Quicksort/Quicksort.java" />
+        <option value="$PROJECT_DIR$/src/V_HashTables/PhoneBook.java" />
+        <option value="$PROJECT_DIR$/src/VI_BreadthFirstSearch/MapGraph.java" />
+        <option value="$PROJECT_DIR$/src/VI_BreadthFirstSearch/QueueGraph.java" />
+        <option value="$PROJECT_DIR$/src/VI_BreadthFirstSearch/Dijkstra.java" />
+        <option value="$PROJECT_DIR$/src/VI_BreadthFirstSearch/Dijkstra2.java" />
       </list>
     </option>
   </component>
@@ -78,7 +120,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -90,7 +132,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -108,12 +149,13 @@
               <item name="grokkingAlgs" type="b2602c69:ProjectViewProjectNode" />
               <item name="grokkingAlgs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="IV_Quicksort" type="462c0819:PsiDirectoryNode" />
+              <item name="VI_BreadthFirstSearch" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -137,14 +179,47 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Quicksort">
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="III_Recursion.Factorial" />
+  <component name="RunManager" selected="Application.Dijkstra2">
+    <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VI_BreadthFirstSearch.Dijkstra" />
       <module name="GrokkingAlgs" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="III_Recursion.*" />
+          <option name="PATTERN" value="VI_BreadthFirstSearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Dijkstra2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VI_BreadthFirstSearch.Dijkstra2" />
+      <module name="GrokkingAlgs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="VI_BreadthFirstSearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="PhoneBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="V_HashTables.PhoneBook" />
+      <module name="GrokkingAlgs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="V_HashTables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="QueueGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VI_BreadthFirstSearch.QueueGraph" />
+      <module name="GrokkingAlgs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="VI_BreadthFirstSearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,39 +231,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="IV_Quicksort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="RecCountdown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="III_Recursion.RecCountdown" />
-      <module name="GrokkingAlgs" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="III_Recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="RecursiveSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IV_Quicksort.RecursiveSum" />
-      <module name="GrokkingAlgs" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="IV_Quicksort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="II_SelectionSort.SelectionSort" />
-      <module name="GrokkingAlgs" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="II_SelectionSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,19 +277,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SelectionSort" />
-      <item itemvalue="Application.RecCountdown" />
-      <item itemvalue="Application.Factorial" />
-      <item itemvalue="Application.RecursiveSum" />
       <item itemvalue="Application.Quicksort" />
+      <item itemvalue="Application.PhoneBook" />
+      <item itemvalue="Application.QueueGraph" />
+      <item itemvalue="Application.Dijkstra" />
+      <item itemvalue="Application.Dijkstra2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dijkstra2" />
+        <item itemvalue="Application.Dijkstra" />
+        <item itemvalue="Application.QueueGraph" />
+        <item itemvalue="Application.PhoneBook" />
         <item itemvalue="Application.Quicksort" />
-        <item itemvalue="Application.RecursiveSum" />
-        <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.RecCountdown" />
-        <item itemvalue="Application.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -262,15 +304,17 @@
       <option name="presentableId" value="Default" />
       <updated>1536869906088</updated>
       <workItem from="1536869910583" duration="4826000" />
-      <workItem from="1536910725515" duration="7509000" />
+      <workItem from="1536910725515" duration="7547000" />
+      <workItem from="1536934970772" duration="4009000" />
+      <workItem from="1537182504395" duration="11903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12335000" />
+    <option name="totallyTimeSpent" value="28285000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -283,7 +327,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32857144" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -309,7 +353,50 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="13" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/IV_Quicksort/RecursiveSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="111" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IV_Quicksort/Quicksort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/V_HashTables/PhoneBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IV_Quicksort/RecursiveSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="111" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IV_Quicksort/Quicksort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/I_Introduction/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -343,10 +430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="e#90#91#0" expanded="true" />
-            <element signature="e#137#138#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -366,10 +449,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IV_Quicksort/Quicksort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-118">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="340">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/V_HashTables/PhoneBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VI_BreadthFirstSearch/MapGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VI_BreadthFirstSearch/QueueGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="65" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VI_BreadthFirstSearch/Dijkstra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="69" column="1" lean-forward="true" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VI_BreadthFirstSearch/Dijkstra2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="83" column="62" selection-start-line="83" selection-start-column="62" selection-end-line="83" selection-end-column="62" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1523#1524#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1698#1699#0" expanded="true" />
+            <element signature="e#1733#1734#0" expanded="true" />
+            <element signature="e#1893#1894#0" expanded="true" />
+            <element signature="e#1941#1942#0" expanded="true" />
+            <element signature="e#3388#3389#0" expanded="true" />
+            <element signature="e#3424#3425#0" expanded="true" />
           </folding>
         </state>
       </provider>

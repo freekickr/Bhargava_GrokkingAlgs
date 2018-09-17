@@ -1,7 +1,8 @@
 package IV_Quicksort;
 
-import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
+
+/* Java realization of a Quicksort algorithm */
 
 public class Quicksort {
     private static final int[] ARRAY = new int[20];
