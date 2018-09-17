@@ -27,7 +27,7 @@ public class Dijkstra2 {
         }
     }
 
-    public static Graph calculateShortestPathFromSource(Graph graph, Node source) {
+    private static Graph calculateShortestPathFromSource(Graph graph, Node source) {
         source.setDistance(0);
 
         Set<Node> settledNodes = new HashSet<>();
@@ -88,7 +88,7 @@ public class Dijkstra2 {
 class Graph {
     private Set<Node> nodes = new HashSet<>();
 
-    public void addNode(Node nodeA) {
+    void addNode(Node nodeA) {
         nodes.add(nodeA);
     }
 }
@@ -97,33 +97,33 @@ class Node {
     private String name;
     private List<Node> shortestPath = new LinkedList<>();
     private Integer distance = Integer.MAX_VALUE;
-    Map<Node, Integer> adjacentNodes = new HashMap<>();
+    private Map<Node, Integer> adjacentNodes = new HashMap<>();
 
-    public void addDestination(Node destination, int distance) {
+    void addDestination(Node destination, int distance) {
         adjacentNodes.put(destination, distance);
     }
 
-    public Node(String name) {
+    Node(String name) {
         this.name = name;
     }
 
-    public Integer getDistance() {
+    Integer getDistance() {
         return distance;
     }
 
-    public void setDistance(Integer distance) {
+    void setDistance(Integer distance) {
         this.distance = distance;
     }
 
-    public List<Node> getShortestPath() {
+    List<Node> getShortestPath() {
         return shortestPath;
     }
 
-    public void setShortestPath(List<Node> shortestPath) {
+    void setShortestPath(List<Node> shortestPath) {
         this.shortestPath = shortestPath;
     }
 
-    public Map<Node, Integer> getAdjacentNodes() {
+    Map<Node, Integer> getAdjacentNodes() {
         return adjacentNodes;
     }
 }
