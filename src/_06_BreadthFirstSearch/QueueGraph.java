@@ -1,4 +1,4 @@
-package VI_BreadthFirstSearch;
+package _06_BreadthFirstSearch;
 
 import java.util.*;
 

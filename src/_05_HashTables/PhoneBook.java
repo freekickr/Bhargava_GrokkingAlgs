@@ -1,4 +1,4 @@
-package V_HashTables;
+package _05_HashTables;
 
 import java.util.HashMap;
 import java.util.Map;

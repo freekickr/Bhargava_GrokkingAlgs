@@ -1,4 +1,4 @@
-package IV_Quicksort;
+package _04_Quicksort;
 
 /* Recursion way to count a sum of an array from some index to the end and search for the largest number */
 

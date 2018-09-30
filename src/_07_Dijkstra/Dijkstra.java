@@ -1,4 +1,4 @@
-package VI_BreadthFirstSearch;
+package _07_Dijkstra;
 
 import java.util.ArrayList;
 import java.util.HashMap;

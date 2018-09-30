@@ -1,4 +1,4 @@
-package I_Introduction;
+package _01_Introduction;
 
 /* Binary search performs only with sorted arrays, and before we start to search an index of a number, we need to sort our array */
 
